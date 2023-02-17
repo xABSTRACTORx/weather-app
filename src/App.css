@@ -1,0 +1,25 @@
+.main-container {
+  max-width: 85%;
+  margin: 20px auto;
+  min-height: 30%;
+}
+
+.forecast-weather{
+  display: flex;
+  min-height: 25vh;
+  min-width: 100%;
+  margin: 10px;
+  padding-left: 40px;
+}
+
+
+@media screen and (max-width: 1060px) {
+  .forecast-weather {
+    flex-wrap:wrap;
+    min-height: 10vh;
+    max-width: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}

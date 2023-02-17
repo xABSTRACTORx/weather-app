@@ -1,0 +1,18 @@
+button {
+    display: flex;
+    width: 120px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:beige;
+    background-color: rgb(24, 119, 251);
+    border-radius: 10%;
+    margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(72, 0, 139);
+}

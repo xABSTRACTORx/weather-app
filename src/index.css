@@ -1,0 +1,27 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, rgb(0, 115, 255) 0%, rgb(49, 59, 255) 99%);
+  background-repeat:no-repeat; 
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 90%;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  font-size: 16px;
+  min-height: 100vh;
+  min-width: 90%;
+}
+@media screen and (max-width: 1450px) {
+  html {
+    font-size: 13px;
+  }
+}
